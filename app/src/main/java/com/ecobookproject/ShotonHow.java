@@ -3,11 +3,11 @@ package com.ecobookproject;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ShotonBay extends AppCompatActivity {
+public class ShotonHow extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.shoton_bay);
+        setContentView(R.layout.shoton_how);
     }
 }
