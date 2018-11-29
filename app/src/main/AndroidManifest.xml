@@ -21,7 +21,7 @@
         <activity android:name=".LakeSebu" />
         <activity android:name=".Batad" />
         <activity android:name=".Batanes" />
-        <activity android:name=".ShotonHow" />
+        <activity android:name=".SohotonHow" />
         <activity android:name=".LakeHow"></activity>
     </application>
 

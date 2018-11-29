@@ -27,7 +27,7 @@ public class SohotonBay extends AppCompatActivity {
             startActivity(chooser);
         }
         else if(v.getId() == R.id.shoton_htgt){
-            i = new Intent(this,ShotonHow.class);
+            i = new Intent(this,SohotonHow.class);
             startActivity(i);
         }
     }
