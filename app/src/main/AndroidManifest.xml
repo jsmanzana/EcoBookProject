@@ -18,11 +18,25 @@
         </activity>
         <activity android:name=".HomePage" />
         <activity android:name=".SohotonBay" />
+        <activity android:name=".SohotonHow" />
         <activity android:name=".LakeSebu" />
         <activity android:name=".Batad" />
         <activity android:name=".Batanes" />
-        <activity android:name=".SohotonHow" />
-        <activity android:name=".LakeHow"></activity>
+        <activity android:name=".MinalungaoNationalPark" />
+        <activity android:name=".Sagada" />
+        <activity android:name=".Siquijor" />
+        <activity android:name=".SouthernCebu" />
+        <activity android:name=".Samal" />
+        <activity android:name=".Isla" />
+        <activity android:name=".LakeHow" />
+        <activity android:name=".BatadHow" />
+        <activity android:name=".BatanesHow" />
+        <activity android:name=".MinalungaoHow" />
+        <activity android:name=".SagadaHow" />
+        <activity android:name=".SiquijorHow" />
+        <activity android:name=".SouthernHow" />
+        <activity android:name=".SamalHow" />
+        <activity android:name=".IslaHow"></activity>
     </application>
 
 </manifest>

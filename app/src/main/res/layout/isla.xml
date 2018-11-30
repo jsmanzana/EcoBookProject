@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#08cc5d"
-    tools:context=".Batanes">
+    tools:context=".Isla">
 
     <TextView
         android:id="@+id/textView4"
@@ -18,7 +18,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="#eff959"
-        android:text="Batanes"
+        android:text="Isla de Gigantes"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -39,7 +39,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="#eff959"
-        android:text="Batanes"
+        android:text="Carles, Iloilo"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -87,7 +87,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/batanes_htgt"
+        android:id="@+id/isla_htgt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
@@ -106,7 +106,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/batanes_map"
+        android:id="@+id/isla_map"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -125,7 +125,7 @@
         app:layout_constraintVertical_bias="0.267" />
 
     <Button
-        android:id="@+id/batanes_home"
+        android:id="@+id/isla_home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -142,4 +142,5 @@
         app:layout_constraintStart_toEndOf="@+id/sohoton_map"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:layout_constraintVertical_bias="0.267" />
+
 </android.support.constraint.ConstraintLayout>

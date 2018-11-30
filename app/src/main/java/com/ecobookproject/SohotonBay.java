@@ -16,7 +16,7 @@ public class SohotonBay extends AppCompatActivity {
 
     public void process(View v){
         Intent i =null, chooser=null;
-        if(v.getId() == R.id.shoton_home){
+        if(v.getId() == R.id.sohoton_home){
             i = new Intent(this,HomePage.class);
             startActivity(i);
         }
@@ -26,7 +26,7 @@ public class SohotonBay extends AppCompatActivity {
             chooser = Intent.createChooser(i, "Choose a Map app");
             startActivity(chooser);
         }
-        else if(v.getId() == R.id.shoton_htgt){
+        else if(v.getId() == R.id.sohoton_htgt){
             i = new Intent(this,SohotonHow.class);
             startActivity(i);
         }
