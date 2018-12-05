@@ -14,7 +14,7 @@ public class SohotonBay extends AppCompatActivity {
         setContentView(R.layout.sohoton_bay);
     }
 
-    public void process(View v){
+    public void sohotonProcess(View v){
         Intent i =null, chooser=null;
         if(v.getId() == R.id.sohoton_home){
             i = new Intent(this,HomePage.class);
@@ -22,7 +22,7 @@ public class SohotonBay extends AppCompatActivity {
         }
         else if(v.getId() == R.id.sohoton_map){
             i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("geo://14.0610410, 120.991841"));
+            i.setData(Uri.parse("geo://9.616327, 125.898047"));
             chooser = Intent.createChooser(i, "Choose a Map app");
             startActivity(chooser);
         }

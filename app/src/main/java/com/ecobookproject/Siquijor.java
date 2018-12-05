@@ -14,7 +14,7 @@ public class Siquijor extends AppCompatActivity {
         setContentView(R.layout.siquijor);
     }
 
-    public void process(View v){
+    public void siquijorProcess(View v){
         Intent i =null, chooser=null;
         if(v.getId() == R.id.siquijor_home){
             i = new Intent(this,HomePage.class);
@@ -22,7 +22,7 @@ public class Siquijor extends AppCompatActivity {
         }
         else if(v.getId() == R.id.siquijor_map){
             i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("geo://14.0610410, 120.991841"));
+            i.setData(Uri.parse("geo://9.199133, 123.594311"));
             chooser = Intent.createChooser(i, "Choose a Map app");
             startActivity(chooser);
         }

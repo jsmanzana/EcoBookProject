@@ -14,7 +14,7 @@ public class SouthernCebu extends AppCompatActivity {
         setContentView(R.layout.southern_cebu);
     }
 
-    public void process(View v){
+    public void southernProcess(View v){
         Intent i =null, chooser=null;
         if(v.getId() == R.id.southern_home){
             i = new Intent(this,HomePage.class);
@@ -22,7 +22,7 @@ public class SouthernCebu extends AppCompatActivity {
         }
         else if(v.getId() == R.id.southern_map){
             i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("geo://14.0610410, 120.991841"));
+            i.setData(Uri.parse("geo://9.759986, 123.366146"));
             chooser = Intent.createChooser(i, "Choose a Map app");
             startActivity(chooser);
         }

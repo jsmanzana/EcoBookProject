@@ -14,7 +14,7 @@ public class Samal extends AppCompatActivity {
         setContentView(R.layout.samal);
     }
 
-    public void process(View v){
+    public void samalProcess(View v){
         Intent i =null, chooser=null;
         if(v.getId() == R.id.samal_home){
             i = new Intent(this,HomePage.class);
@@ -22,7 +22,7 @@ public class Samal extends AppCompatActivity {
         }
         else if(v.getId() == R.id.samal_map){
             i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("geo://14.0610410, 120.991841"));
+            i.setData(Uri.parse("geo://7.104710, 125.704974"));
             chooser = Intent.createChooser(i, "Choose a Map app");
             startActivity(chooser);
         }

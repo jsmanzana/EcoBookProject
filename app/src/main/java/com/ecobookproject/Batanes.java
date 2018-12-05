@@ -14,7 +14,7 @@ public class Batanes extends AppCompatActivity {
         setContentView(R.layout.batanes);
     }
 
-    public void process(View v){
+    public void batanesProcess(View v){
         Intent i =null, chooser=null;
         if(v.getId() == R.id.batanes_home){
             i = new Intent(this,HomePage.class);
@@ -22,7 +22,7 @@ public class Batanes extends AppCompatActivity {
         }
         else if(v.getId() == R.id.batanes_map){
             i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("geo://14.0610410, 120.991841"));
+            i.setData(Uri.parse("geo://20.440010, 121.964937"));
             chooser = Intent.createChooser(i, "Choose a Map app");
             startActivity(chooser);
         }

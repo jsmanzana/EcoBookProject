@@ -14,7 +14,7 @@ public class MinalungaoNationalPark extends AppCompatActivity {
         setContentView(R.layout.minalungao_national_park);
     }
 
-    public void process(View v){
+    public void minalungaoProcess(View v){
         Intent i =null, chooser=null;
         if(v.getId() == R.id.minalungao_home){
             i = new Intent(this,HomePage.class);
@@ -22,7 +22,7 @@ public class MinalungaoNationalPark extends AppCompatActivity {
         }
         else if(v.getId() == R.id.minalungao_map){
             i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("geo://14.0610410, 120.991841"));
+            i.setData(Uri.parse("geo://15.298671, 121.122095"));
             chooser = Intent.createChooser(i, "Choose a Map app");
             startActivity(chooser);
         }

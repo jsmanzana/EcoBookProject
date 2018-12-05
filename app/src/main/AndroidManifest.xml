@@ -16,7 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomePage" />
         <activity android:name=".SohotonBay" />
         <activity android:name=".SohotonHow" />
         <activity android:name=".LakeSebu" />
@@ -36,7 +35,8 @@
         <activity android:name=".SiquijorHow" />
         <activity android:name=".SouthernHow" />
         <activity android:name=".SamalHow" />
-        <activity android:name=".IslaHow"></activity>
+        <activity android:name=".IslaHow" />
+        <activity android:name=".HomePage"></activity>
     </application>
 
 </manifest>

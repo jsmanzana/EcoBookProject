@@ -14,7 +14,7 @@ public class Batad extends AppCompatActivity {
         setContentView(R.layout.batad);
     }
 
-    public void process(View v){
+    public void batadProcess(View v){
         Intent i =null, chooser=null;
         if(v.getId() == R.id.batad_home){
             i = new Intent(this,HomePage.class);
@@ -22,7 +22,7 @@ public class Batad extends AppCompatActivity {
         }
         else if(v.getId() == R.id.batad_map){
             i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("geo://14.0610410, 120.991841"));
+            i.setData(Uri.parse("geo://16.945879, 121.128591"));
             chooser = Intent.createChooser(i, "Choose a Map app");
             startActivity(chooser);
         }
