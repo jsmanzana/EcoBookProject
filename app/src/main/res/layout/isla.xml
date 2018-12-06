@@ -70,7 +70,7 @@
     <TextView
         android:id="@+id/textView6"
         android:layout_width="361dp"
-        android:layout_height="76dp"
+        android:layout_height="97dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -78,13 +78,14 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="#ffffff"
-        android:text="Description"
-        android:textSize="20sp"
+        android:text="Like Coron, El Nido, and Hundred Islands, Isla de Gigantes is also an island hopping heaven. It features a picturesque tidal pool, stunning islands, amazing caves for spelunking, great sceneries, and an accommodating locality."
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.08" />
 
     <Button
         android:id="@+id/isla_htgt"

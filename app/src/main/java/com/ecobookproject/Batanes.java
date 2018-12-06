@@ -22,7 +22,7 @@ public class Batanes extends AppCompatActivity {
         }
         else if(v.getId() == R.id.batanes_map){
             i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("geo://20.440010, 121.964937"));
+            i.setData(Uri.parse("geo:20.440010, 121.964937"));
             chooser = Intent.createChooser(i, "Choose a Map app");
             startActivity(chooser);
         }

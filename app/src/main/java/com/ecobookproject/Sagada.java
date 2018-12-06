@@ -22,7 +22,7 @@ public class Sagada extends AppCompatActivity {
         }
         else if(v.getId() == R.id.sagada_map){
             i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("geo://17.098222, 120.909515"));
+            i.setData(Uri.parse("geo:17.098222, 120.909515"));
             chooser = Intent.createChooser(i, "Choose a Map app");
             startActivity(chooser);
         }

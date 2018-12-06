@@ -22,7 +22,7 @@ public class Isla extends AppCompatActivity {
         }
         else if(v.getId() == R.id.isla_map){
             i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("geo://11.601051, 123.339914"));
+            i.setData(Uri.parse("geo:11.601051, 123.339914"));
             chooser = Intent.createChooser(i, "Choose a Map app");
             startActivity(chooser);
         }

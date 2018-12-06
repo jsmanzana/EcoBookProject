@@ -22,7 +22,7 @@ public class SouthernCebu extends AppCompatActivity {
         }
         else if(v.getId() == R.id.southern_map){
             i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("geo://9.759986, 123.366146"));
+            i.setData(Uri.parse("geo:9.759986, 123.366146"));
             chooser = Intent.createChooser(i, "Choose a Map app");
             startActivity(chooser);
         }

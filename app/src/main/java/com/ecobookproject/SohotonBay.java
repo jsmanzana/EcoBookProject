@@ -22,7 +22,7 @@ public class SohotonBay extends AppCompatActivity {
         }
         else if(v.getId() == R.id.sohoton_map){
             i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("geo://9.616327, 125.898047"));
+            i.setData(Uri.parse("geo:9.616327, 125.898047"));
             chooser = Intent.createChooser(i, "Choose a Map app");
             startActivity(chooser);
         }

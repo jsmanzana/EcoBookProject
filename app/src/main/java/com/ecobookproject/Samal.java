@@ -22,7 +22,7 @@ public class Samal extends AppCompatActivity {
         }
         else if(v.getId() == R.id.samal_map){
             i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("geo://7.104710, 125.704974"));
+            i.setData(Uri.parse("geo:7.104710, 125.704974"));
             chooser = Intent.createChooser(i, "Choose a Map app");
             startActivity(chooser);
         }

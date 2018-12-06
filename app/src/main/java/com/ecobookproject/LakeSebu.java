@@ -22,7 +22,7 @@ public class LakeSebu extends AppCompatActivity {
         }
         else if(v.getId() == R.id.lake_map){
             i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("geo://6.247040, 124.559074"));
+            i.setData(Uri.parse("geo:6.247040, 124.559074"));
             chooser = Intent.createChooser(i, "Choose a Map app");
             startActivity(chooser);
         }
