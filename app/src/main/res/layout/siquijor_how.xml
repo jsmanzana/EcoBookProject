@@ -37,7 +37,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:background="#ffffff"
+        android:background="#f8a302"
         android:text="The closest airport to Siquijor is Dumaguete Airport (DGT). Philippine Airlines and Cebu Pacific fly from Manila (MNL) to Dumaguete City twice daily. From the airport, hop on a multicab or trike to the city’s port and board a fast craft (fast ferry) or RoRo (roll-on/roll-off ferry) to either the Municipality of Larena or Siquijor. There are multiple trips a day and travel is approximately one hour for the fast craftand two hours for the RoRo."
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"

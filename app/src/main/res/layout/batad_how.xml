@@ -38,7 +38,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="#ffffff"
+        android:background="#f8a302"
         android:text="From Manila, take a bus to Banaue. There are only two bus lines that offer the Manila-Banaue route as of this writing. I suggest that you book in advance since buses are limited and they usually get full especially during peak seasons.  To buy your tickets in advance, visit Ohayami Trans at J. Fajardo St. cor Lacson Ave., Sampaloc, Manila or Dangwa Tranco at Dimasalang Street (near Dangwa Flower Market), Sampaloc, Manila.  From Banaue town proper, you can wait for jeepneys to Saddle Point. Take note that there are only two trips daily and the schedule is not regular. If you are a big group, you can hire one for less than ₱2,000 and that can fit up to 20 individuals."
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView"

@@ -37,7 +37,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:background="#ffffff"
+        android:background="#f8a302"
         android:text="From Cebu City, you can board a bus to Bato with a “via Barili” signboard and tell the conductor to drop you at Matutinao Church. It is important that you ride a “via Barili” route because this will take the west arterial road. Otherwise, it won’t pass Barangay Matutinao.  Another option is to take a GT Express (V Hire) to Badian from Cebu Citylink terminal. From Badian, you can wait for a bus to Bato or take multicabs to Malabuyoc or Bato and ask the conductor/driver to drop you at Kawasan junction or Matutinao Church."
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"

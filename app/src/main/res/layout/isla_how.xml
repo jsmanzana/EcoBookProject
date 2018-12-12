@@ -37,7 +37,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:background="#ffffff"
+        android:background="#f8a302"
         android:text="You can either board a Manila-Iloilo (MNL-ILO) or Manila-Roxas (MNL-RXS) flight. From Iloilo’s Tagbak terminal, ride a van to to Estancia. On the other hand, there are buses and vans for Estancia available at Roxas City’s Lawaan Terminal.  The Feeder port in Estancia is a tricycle away from the town’s terminal. The boat that leaves for Isla de Gigantes waits for passengers at the feeder port. The trips is daily and departs at 2PM."
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -77,7 +77,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="#ffffff"
+        android:background="#f8a302"
         android:text="The northernmost province of the country is the real stunner. Batanes offers exquisite terrains at par to that of subtropical countries. The prairie-carpeted rolling hills, the stone-made dwellings, and the tide-crafted cliffs are postcard-perfect."
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"

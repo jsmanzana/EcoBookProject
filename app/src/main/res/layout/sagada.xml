@@ -77,7 +77,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="#ffffff"
+        android:background="#f8a302"
         android:text="Sagada became a tourist destination after several features from pop culture. Just recently an Angelica Panganiban-starred film featured the captivating charm of Sagada. Movies like these expose Sagada to a new generation of tourists and help drive more visits to the heart of the Cordilleras."
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"

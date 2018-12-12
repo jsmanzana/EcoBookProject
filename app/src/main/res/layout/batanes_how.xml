@@ -37,7 +37,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:background="#ffffff"
+        android:background="#f8a302"
         android:text="Philippine Airlines’ budget arm, PAL Express, flies twice from Manila (MNL) to Basco (BSO) daily. From Basco, you can coordinate with your hotel on how to get around. You can also hire a bike if you want to see the island all by yourself."
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -77,7 +77,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="#ffffff"
+        android:background="#f8a302"
         android:text="Canyoneering (or canyoning) is stirring quite a buzz in southern Cebu. This sports adventure started in the province in 2004 and became popular with the locals. Popularity exploded when Richard Gutierrez, Drew Arellano, and Dyan Castillejo featured the activity on their respective TV shows, sparking audiences’ interest to try it."
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -37,7 +37,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:background="#ffffff"
+        android:background="#f8a302"
         android:text="Take a bus to Cabanatuan City from any major bus terminals in Manila. If you ride the “via SCTEX” route, get off at Cabanatuan City Terminal and transfer to another bus for Gapan.  If you choose the “via San Miguel/Bulacan” route, tell the conductor to drop you off at Tinio Street junction in Gapan and wait for a Papaya- or Gen Tinio-bound PUJs. From Gen Tinio market, you can ask for a tricycle that’ll bring you to Minalungao."
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"

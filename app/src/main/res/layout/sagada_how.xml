@@ -37,7 +37,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:background="#ffffff"
+        android:background="#f8a302"
         android:text="Catch any Baguio-bound bus from Metro Manila. From Baguio, proceed to Dangwa Bus Terminal and Board a GL Bus to Sagada.  Another option is to take the Manila-Banaue bus. Then take a Sagada-bound van from Banaue."
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"

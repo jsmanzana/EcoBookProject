@@ -37,7 +37,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:background="#ffffff"
+        android:background="#f8a302"
         android:text="All local airlines have multiple fights to Davao (DVO). From Davao, you can take a taxi or multi-cab to Davao’s Sasa Port wherein Samal is just 15-minutes away."
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"

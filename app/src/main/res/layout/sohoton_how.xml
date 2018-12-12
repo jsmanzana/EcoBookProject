@@ -37,7 +37,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:background="#ffffff"
+        android:background="#f8a302"
         android:text="From Manila (MNL), you can take any Philippine airliner to Surigao City (SUG). Take a local transport to the main terminal and hop on a bus or van to the Municipality of Claver. There are pump boats available for hire for your Sohoton Bay sojourn at Claver port."
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"

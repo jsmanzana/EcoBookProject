@@ -37,7 +37,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:background="#ffffff"
+        android:background="#f8a302"
         android:text="General Santos City Airport (GES) is the closest Airport to Lake Sebu. Most airlines have daily flight from Manila, Cebu, and Iloilo to General Santos (GenSan). From GenSan’s Bulaong Terminal, take a bus or van to Marbel (Koronadal City) then transfer to a Surallah-bound public utility vehicle. Then, you can take a jeepney, van, or habal-habal from Surallah’s Integrated Terminal to Lake Sebu."
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
