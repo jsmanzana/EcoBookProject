@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
 public class HomePage extends AppCompatActivity {
 
@@ -56,10 +58,9 @@ public class HomePage extends AppCompatActivity {
             startActivity(i);
         }
         else if(v.getId() == R.id.btnExit){
-            finish();
-            System.exit(0);
+            i = new Intent(this,StartupPage.class);
+            startActivity(i);
         }
-
-
     }
+    
 }
